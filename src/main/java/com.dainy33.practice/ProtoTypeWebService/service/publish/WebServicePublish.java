@@ -1,6 +1,6 @@
-package com.dainy33.practice.publish;
+package com.dainy33.practice.ProtoTypeWebService.service.publish;
 
-import com.dainy33.practice.service.impl.WebServiceImpl;
+import com.dainy33.practice.ProtoTypeWebService.service.impl.WebServiceImpl;
 
 import javax.xml.ws.Endpoint;
 
