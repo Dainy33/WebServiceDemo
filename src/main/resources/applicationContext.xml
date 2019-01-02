@@ -6,12 +6,6 @@
        xmlns:aop="http://www.springframework.org/schema/aop" xmlns:jaxws="http://cxf.apache.org/jaxws"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
-    <bean id = "employeeManager" class="com.dainy33.practice.service.impl.EmployeeManagerImpl"></bean>
 
-    <jaxws:server address="/open" serviceClass="com.dainy33.practice.service.EmployeeManager">
-        <jaxws:serviceBean>
-            <ref bean="employeeManager"/>
-        </jaxws:serviceBean>
-    </jaxws:server>
 
 </beans>

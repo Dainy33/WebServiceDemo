@@ -1,4 +1,4 @@
-package com.dainy33.practice.ProtoTypeWebService.service;
+package com.dainy33.practice.service;
 
 import javax.jws.WebMethod;
 
